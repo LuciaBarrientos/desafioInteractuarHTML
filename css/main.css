@@ -1,0 +1,40 @@
+.bannerHome {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    padding: 2%;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid #E2E2E2;
+    border-radius: 15px;
+    padding: 3%;
+    text-align: center;
+    margin: 1%;
+}
+
+.nombreProducto {
+    font-weight: bold;
+}
+
+.btnComprar {
+    background-color: #8bb2b5;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btnCarrito {
+    background-color: #b58459;
+    color: #ffffff;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 10px;
+    display:inline-block;
+}
